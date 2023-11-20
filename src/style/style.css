@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.App {
+    width: 800px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #444;
+}
+
+.countInput {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #888;
+
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.countBtn {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    width: 65px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #777;
+}
+
+button:hover {
+    background-color: #999;
+}
+
+h2 {
+    font-size: 35px;
+    color: #111
+}
+
+
+.btnd {
+    width: 150px;
+}
+
